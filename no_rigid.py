@@ -5,9 +5,9 @@ import cv2
 
 dimension = 2
 spline_order = 3
-direction_matrix_row_major = [1., 0., 0., 1.] # identity, mesh is axis aligned
-domain_physical_dimension = [232, 320]
-np.random.seed(1)
+direction_matrix_row_major = [1., 0., 0., 1.]
+domain_physical_dimension = [] # shape of image
+np.random.seed(1) 
 
 IMG_PATH = '' # your image path
 SAVE_PATH = '' # where you save images
