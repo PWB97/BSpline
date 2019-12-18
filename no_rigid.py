@@ -9,9 +9,9 @@ direction_matrix_row_major = [1., 0., 0., 1.] # identity, mesh is axis aligned
 domain_physical_dimension = [232, 320]
 np.random.seed(1)
 
-IMG_PATH = '/mnt/hd1/puwenbo/Dataset/registration2D_dataset/image/CT'
-SAVE_PATH = '/mnt/hd1/puwenbo/Dataset/registration2D_dataset/image/bs_moving'
-TRANS_PATH = '/mnt/hd1/puwenbo/Dataset/registration2D_dataset/image/bs_trans'
+IMG_PATH = '' # your image path
+SAVE_PATH = '' # where you save images
+TRANS_PATH = '' # where you save parameters
 
 def bspline_trans(input, save_name):
     origin = input.GetOrigin()
